@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="qtrecog.testcases.KudosSearchTest">
+        <methods>
+          <include name="setup"/>
+          <include name="loadConfig"/>
+          <include name="tearDown"/>
+          <include name="verifyKudosSearch"/>
+        </methods>
+      </class> <!-- qtrecog.testcases.KudosSearchTest -->
+      <class name="qtrecog.testcases.KudosMandatoryTest">
+        <methods>
+          <include name="loadConfig"/>
+          <include name="verifyKudosMandatry"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- qtrecog.testcases.KudosMandatoryTest -->
+      <class name="qtrecog.testcases.KudosMandateTest1">
+        <methods>
+          <include name="verifyCitationMandatory"/>
+          <include name="loadConfig"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- qtrecog.testcases.KudosMandateTest1 -->
+      <class name="qtrecog.testcases.KudosHomeTest">
+        <methods>
+          <include name="verifyTitleHome"/>
+          <include name="loadConfig"/>
+          <include name="verifyUser"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- qtrecog.testcases.KudosHomeTest -->
+      <class name="qtrecog.testcases.KudosRecentsTest">
+        <methods>
+          <include name="loadConfig"/>
+          <include name="setup"/>
+          <include name="verifyRecentContacts"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- qtrecog.testcases.KudosRecentsTest -->
+      <class name="qtrecog.testcases.ActivityPanel">
+        <methods>
+          <include name="verifyKudosToMe"/>
+          <include name="verifyKudosFromMe"/>
+          <include name="loadConfig"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="verifyActivity"/>
+        </methods>
+      </class> <!-- qtrecog.testcases.ActivityPanel -->
+      <class name="qtrecog.testcases.KudosHomeTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loadConfig"/>
+          <include name="setup"/>
+          <include name="verifySendKudos"/>
+        </methods>
+      </class> <!-- qtrecog.testcases.KudosHomeTest2 -->
+      <class name="qtrecog.testcases.KudosConditions">
+        <methods>
+          <include name="verifyKudosToOwn"/>
+          <include name="loadConfig"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- qtrecog.testcases.KudosConditions -->
+      <class name="qtrecog.testcases.LoginPageTest">
+        <methods>
+          <include name="verifyElementColours"/>
+          <include name="setup"/>
+          <include name="loadConfig"/>
+          <include name="verifyLogin"/>
+          <include name="verifyTitleLogin"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- qtrecog.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

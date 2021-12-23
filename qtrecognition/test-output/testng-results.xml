@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="7" failed="7" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-22T16:45:52 IST" name="Suite" finished-at="2021-12-22T16:54:45 IST" duration-ms="532892">
+    <groups>
+    </groups>
+    <test started-at="2021-12-22T16:45:52 IST" name="Test8" finished-at="2021-12-22T16:47:00 IST" duration-ms="68068">
+      <class name="qtrecog.testcases.KudosHomeTest2">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:qtrecog.testcases.KudosHomeTest2@4a9f80d3]" started-at="2021-12-22T16:45:52 IST" name="setup" finished-at="2021-12-22T16:45:58 IST" duration-ms="6375" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySendKudos()[pri:0, instance:qtrecog.testcases.KudosHomeTest2@4a9f80d3]" started-at="2021-12-22T16:45:58 IST" name="verifySendKudos" finished-at="2021-12-22T16:46:59 IST" duration-ms="60706" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Kudos cannot be sent expected [Kudos Sent Successfully.] but found [Sending email. Please wait .....]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Kudos cannot be sent expected [Kudos Sent Successfully.] but found [Sending email. Please wait .....]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at qtrecog.testcases.KudosHomeTest2.verifySendKudos(KudosHomeTest2.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySendKudos -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qtrecog.testcases.KudosHomeTest2@4a9f80d3]" started-at="2021-12-22T16:47:00 IST" name="tearDown" finished-at="2021-12-22T16:47:00 IST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- qtrecog.testcases.KudosHomeTest2 -->
+    </test> <!-- Test8 -->
+    <test started-at="2021-12-22T16:47:01 IST" name="Test2" finished-at="2021-12-22T16:47:56 IST" duration-ms="54970">
+      <class name="qtrecog.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:qtrecog.testcases.LoginPageTest@27a5328c]" started-at="2021-12-22T16:47:01 IST" name="setup" finished-at="2021-12-22T16:47:04 IST" duration-ms="3524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTitleLogin()[pri:1, instance:qtrecog.testcases.LoginPageTest@27a5328c]" started-at="2021-12-22T16:47:04 IST" name="verifyTitleLogin" finished-at="2021-12-22T16:47:04 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleLogin -->
+        <test-method signature="verifyElementColours()[pri:2, instance:qtrecog.testcases.LoginPageTest@27a5328c]" started-at="2021-12-22T16:47:04 IST" name="verifyElementColours" finished-at="2021-12-22T16:47:05 IST" duration-ms="322" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [#fecc160] but found [#fdcc16],
+expected [#939598] but found [#ffffff],
+expected [#939598] but found [#ffffff]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [#fecc160] but found [#fdcc16],
+expected [#939598] but found [#ffffff],
+expected [#939598] but found [#ffffff]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at qtrecog.testcases.LoginPageTest.verifyElementColours(LoginPageTest.java:71)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementColours -->
+        <test-method signature="verifyLogin()[pri:10, instance:qtrecog.testcases.LoginPageTest@27a5328c]" started-at="2021-12-22T16:47:05 IST" name="verifyLogin" finished-at="2021-12-22T16:47:55 IST" duration-ms="50367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qtrecog.testcases.LoginPageTest@27a5328c]" started-at="2021-12-22T16:47:55 IST" name="tearDown" finished-at="2021-12-22T16:47:56 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- qtrecog.testcases.LoginPageTest -->
+    </test> <!-- Test2 -->
+    <test started-at="2021-12-22T16:47:56 IST" name="Test7" finished-at="2021-12-22T16:49:08 IST" duration-ms="71906">
+      <class name="qtrecog.testcases.KudosConditions">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:qtrecog.testcases.KudosConditions@5d5d9e5]" started-at="2021-12-22T16:47:56 IST" name="setup" finished-at="2021-12-22T16:47:59 IST" duration-ms="3258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyKudosToOwn()[pri:0, instance:qtrecog.testcases.KudosConditions@5d5d9e5]" started-at="2021-12-22T16:47:59 IST" name="verifyKudosToOwn" finished-at="2021-12-22T16:49:07 IST" duration-ms="68311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyKudosToOwn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qtrecog.testcases.KudosConditions@5d5d9e5]" started-at="2021-12-22T16:49:07 IST" name="tearDown" finished-at="2021-12-22T16:49:08 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- qtrecog.testcases.KudosConditions -->
+    </test> <!-- Test7 -->
+    <test started-at="2021-12-22T16:49:08 IST" name="Test3" finished-at="2021-12-22T16:49:54 IST" duration-ms="45722">
+      <class name="qtrecog.testcases.KudosSearchTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:qtrecog.testcases.KudosSearchTest@674c583e]" started-at="2021-12-22T16:49:08 IST" name="setup" finished-at="2021-12-22T16:49:11 IST" duration-ms="3394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyKudosSearch()[pri:0, instance:qtrecog.testcases.KudosSearchTest@674c583e]" started-at="2021-12-22T16:49:11 IST" name="verifyKudosSearch" finished-at="2021-12-22T16:49:53 IST" duration-ms="41490" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='s_e_add']"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DJ', ip: '192.168.1.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2576dca8724dabf58605cf11b9c81eb, findElement {using=xpath, value=//*[@id='s_e_add']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\killi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62151}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62151/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2576dca8724dabf58605cf11b9c81eb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='s_e_add']"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DJ', ip: '192.168.1.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2576dca8724dabf58605cf11b9c81eb, findElement {using=xpath, value=//*[@id='s_e_add']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\killi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62151}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62151/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2576dca8724dabf58605cf11b9c81eb
+at jdk.internal.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy34.sendKeys(Unknown Source)
+at qtrecog.pageobjects.KudosHomeObj.searchMailSelect(KudosHomeObj.java:159)
+at qtrecog.testcases.KudosSearchTest.verifyKudosSearch(KudosSearchTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyKudosSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qtrecog.testcases.KudosSearchTest@674c583e]" started-at="2021-12-22T16:49:53 IST" name="tearDown" finished-at="2021-12-22T16:49:54 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- qtrecog.testcases.KudosSearchTest -->
+    </test> <!-- Test3 -->
+    <test started-at="2021-12-22T16:49:54 IST" name="Test9" finished-at="2021-12-22T16:50:53 IST" duration-ms="59604">
+      <class name="qtrecog.testcases.KudosMandateTest1">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:qtrecog.testcases.KudosMandateTest1@31024624]" started-at="2021-12-22T16:49:54 IST" name="setup" finished-at="2021-12-22T16:49:57 IST" duration-ms="3457" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyCitationMandatory()[pri:0, instance:qtrecog.testcases.KudosMandateTest1@31024624]" started-at="2021-12-22T16:49:57 IST" name="verifyCitationMandatory" finished-at="2021-12-22T16:50:53 IST" duration-ms="55844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCitationMandatory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qtrecog.testcases.KudosMandateTest1@31024624]" started-at="2021-12-22T16:50:53 IST" name="tearDown" finished-at="2021-12-22T16:50:53 IST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- qtrecog.testcases.KudosMandateTest1 -->
+    </test> <!-- Test9 -->
+    <test started-at="2021-12-22T16:50:53 IST" name="Test6" finished-at="2021-12-22T16:51:53 IST" duration-ms="59342">
+      <class name="qtrecog.testcases.ActivityPanel">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:qtrecog.testcases.ActivityPanel@2f94c4db]" started-at="2021-12-22T16:50:53 IST" name="setup" finished-at="2021-12-22T16:51:44 IST" duration-ms="50884" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyKudosFromMe()[pri:0, instance:qtrecog.testcases.ActivityPanel@2f94c4db]" started-at="2021-12-22T16:51:44 IST" name="verifyKudosFromMe" finished-at="2021-12-22T16:51:45 IST" duration-ms="882" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Kudos from me section is not displayed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Kudos from me section is not displayed expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at qtrecog.testcases.ActivityPanel.verifyKudosFromMe(ActivityPanel.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyKudosFromMe -->
+        <test-method signature="verifyKudosToMe()[pri:1, instance:qtrecog.testcases.ActivityPanel@2f94c4db]" started-at="2021-12-22T16:51:46 IST" name="verifyKudosToMe" finished-at="2021-12-22T16:51:46 IST" duration-ms="181" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Kudos to me section is not displayed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Kudos to me section is not displayed expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at qtrecog.testcases.ActivityPanel.verifyKudosToMe(ActivityPanel.java:49)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyKudosToMe -->
+        <test-method signature="verifyActivity()[pri:2, instance:qtrecog.testcases.ActivityPanel@2f94c4db]" started-at="2021-12-22T16:51:47 IST" name="verifyActivity" finished-at="2021-12-22T16:51:52 IST" duration-ms="5540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyActivity -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qtrecog.testcases.ActivityPanel@2f94c4db]" started-at="2021-12-22T16:51:52 IST" name="tearDown" finished-at="2021-12-22T16:51:53 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- qtrecog.testcases.ActivityPanel -->
+    </test> <!-- Test6 -->
+    <test started-at="2021-12-22T16:51:53 IST" name="Test1" finished-at="2021-12-22T16:52:50 IST" duration-ms="56839">
+      <class name="qtrecog.testcases.KudosHomeTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:qtrecog.testcases.KudosHomeTest@9d157ff]" started-at="2021-12-22T16:51:53 IST" name="setup" finished-at="2021-12-22T16:51:56 IST" duration-ms="2904" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTitleHome()[pri:0, instance:qtrecog.testcases.KudosHomeTest@9d157ff]" started-at="2021-12-22T16:51:56 IST" name="verifyTitleHome" finished-at="2021-12-22T16:51:56 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleHome -->
+        <test-method signature="verifyUser()[pri:1, instance:qtrecog.testcases.KudosHomeTest@9d157ff]" started-at="2021-12-22T16:51:56 IST" name="verifyUser" finished-at="2021-12-22T16:52:49 IST" duration-ms="53024" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Expected user name is not displayed expected [Dhananjayan S] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Expected user name is not displayed expected [Dhananjayan S] but found []
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at qtrecog.testcases.KudosHomeTest.verifyUser(KudosHomeTest.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qtrecog.testcases.KudosHomeTest@9d157ff]" started-at="2021-12-22T16:52:49 IST" name="tearDown" finished-at="2021-12-22T16:52:50 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- qtrecog.testcases.KudosHomeTest -->
+    </test> <!-- Test1 -->
+    <test started-at="2021-12-22T16:52:50 IST" name="Test5" finished-at="2021-12-22T16:53:56 IST" duration-ms="66230">
+      <class name="qtrecog.testcases.KudosMandatoryTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:qtrecog.testcases.KudosMandatoryTest@4a8a60bc]" started-at="2021-12-22T16:52:50 IST" name="setup" finished-at="2021-12-22T16:52:53 IST" duration-ms="3123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyKudosMandatry()[pri:0, instance:qtrecog.testcases.KudosMandatoryTest@4a8a60bc]" started-at="2021-12-22T16:52:53 IST" name="verifyKudosMandatry" finished-at="2021-12-22T16:53:56 IST" duration-ms="62839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyKudosMandatry -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qtrecog.testcases.KudosMandatoryTest@4a8a60bc]" started-at="2021-12-22T16:53:56 IST" name="tearDown" finished-at="2021-12-22T16:53:56 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- qtrecog.testcases.KudosMandatoryTest -->
+    </test> <!-- Test5 -->
+    <test started-at="2021-12-22T16:53:56 IST" name="Test4" finished-at="2021-12-22T16:54:45 IST" duration-ms="48982">
+      <class name="qtrecog.testcases.KudosRecentsTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:qtrecog.testcases.KudosRecentsTest@15a902e7]" started-at="2021-12-22T16:45:52 IST" name="loadConfig" finished-at="2021-12-22T16:45:52 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:qtrecog.testcases.KudosRecentsTest@15a902e7]" started-at="2021-12-22T16:53:56 IST" name="setup" finished-at="2021-12-22T16:54:00 IST" duration-ms="3646" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRecentContacts()[pri:0, instance:qtrecog.testcases.KudosRecentsTest@15a902e7]" started-at="2021-12-22T16:54:00 IST" name="verifyRecentContacts" finished-at="2021-12-22T16:54:44 IST" duration-ms="44541" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Recent Kudos Contact is not displayed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Recent Kudos Contact is not displayed expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at qtrecog.testcases.KudosRecentsTest.verifyRecentContacts(KudosRecentsTest.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRecentContacts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qtrecog.testcases.KudosRecentsTest@15a902e7]" started-at="2021-12-22T16:54:45 IST" name="tearDown" finished-at="2021-12-22T16:54:45 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- qtrecog.testcases.KudosRecentsTest -->
+    </test> <!-- Test4 -->
+  </suite> <!-- Suite -->
+</testng-results>

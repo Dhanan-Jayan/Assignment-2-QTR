@@ -1,0 +1,11 @@
+16:51:44.750 [main] INFO  qtrecog.base.Base - Verify Kudos Sections in Activity Started
+16:51:52.974 [main] INFO  qtrecog.base.Base - Verify Kudos Sections in Activity
+16:51:53.217 [main] INFO  qtrecog.base.Base - Verify Kudos Sections in Activity Ended
+16:51:56.164 [main] INFO  qtrecog.base.Base - KudosHomeTest Started
+16:51:56.178 [main] INFO  qtrecog.base.Base - Verified Title of the Page
+16:51:56.178 [main] INFO  qtrecog.base.Base - Verified Page Title 
+16:52:50.099 [main] INFO  qtrecog.base.Base - KudosHomeTest Ended
+16:52:53.279 [main] INFO  qtrecog.base.Base - verifyKudosMandatry Started
+16:53:56.119 [main] INFO  qtrecog.base.Base - Verify Kudos Mandatry
+16:53:56.385 [main] INFO  qtrecog.base.Base - verifyKudosMandatry Ended
+16:54:00.110 [main] INFO  qtrecog.base.Base - verifyRecentContacts Started
